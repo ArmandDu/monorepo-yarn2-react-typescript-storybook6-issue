@@ -77,7 +77,7 @@ After this step, I'm able to see the basic storybook page with all examples comp
 - "react-is": "^16.13.1"
 
 - "react": "^16.13.1"
-- "react-dom": "^16.14.0"
+- "react-dom": "^16.13.1"
 
 ### Aditionnal Dependencies [#11255](https://github.com/storybookjs/storybook/issues/11255)
 
