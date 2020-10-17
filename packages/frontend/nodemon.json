@@ -1,0 +1,6 @@
+{
+  "watch": ["lib"],
+  "exec": "tsc --build",
+  "ext": "js ts",
+  "delay": "1000"
+}
