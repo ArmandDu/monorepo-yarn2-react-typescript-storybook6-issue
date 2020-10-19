@@ -13,7 +13,7 @@
   "scripts": {
     "build": "tsc --build",
     "build-storybook": "build-storybook",
-    "clean": "rimraf dist tsconfig.tsbuildinfo",
+    "clean": "rimraf dist tsconfig.tsbuildinfo node_modules",
     "dev": "nodemon",
     "storybook": "start-storybook -p 6006",
     "test": "echo \"Error: run tests from root\" && exit 1"

@@ -7,7 +7,7 @@ The package has basic typescript configuration to build the lib/_ to dist/_
 
 The lib/ exports a React component
 
-The storybook was configured by running `npx sb init`
+The storybook was configured by running `yarn dlx sb init`
 
 `core-js` dependency was then added because it's missing in dev dependencies (solution inspired from [#11255](https://github.com/storybookjs/storybook/issues/11255))
 
@@ -63,7 +63,21 @@ After this step, I'm able to see the basic storybook page with all examples comp
 
 ![Screenshot storybook without addons](doc/assets/Storybook.png)
 
-### Dependencies
+## Solutions
+
+### 1/ Upgrade to Storybook v6.1.0-alpha.8 or greater
+
+[related issue](https://github.com/storybookjs/storybook/issues/12805#issuecomment-711153013)
+
+branch: fix/monorepo-compatibility-storybook-6.1
+
+### 2/ [workarround] Enable pnp loose mode
+
+[doc](https://yarnpkg.com/features/pnp#pnp-loose-mode)
+
+branch: fix/monorepo-compatibility-storybook-6.0-pnp-loose
+
+## Dependencies
 
 - "@babel/core": "^7.12.3"
 - "@mdx-js/react": "^1.6.18"
